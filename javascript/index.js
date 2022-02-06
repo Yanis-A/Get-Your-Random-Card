@@ -26,7 +26,7 @@ let randomCard = cartes[Math.floor(Math.random()*52)]
 let x = randomCard.valeur;
 let y = randomCard.couleur;
 
-let chemin = "img/cards/"+x+y+".png";
+let chemin = "img/"+x+y+".png";
 
 img.src = chemin;
 console.log(img);
